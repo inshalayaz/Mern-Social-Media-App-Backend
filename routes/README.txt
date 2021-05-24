@@ -1,0 +1,1 @@
+We created the controller folder so we can create all the functionalities that we need in our routes in the folder and not complicate or routes.
