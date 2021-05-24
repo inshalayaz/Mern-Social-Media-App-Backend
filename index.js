@@ -15,6 +15,10 @@ app.use(cors())
 
 app.use('/posts', postRoutes)
 
+app.get('/', (req,res) => {
+    res.send("Welcome to The API")
+})
+
 // Connecting to DataBase
 
 //const CONNECTION_URL
